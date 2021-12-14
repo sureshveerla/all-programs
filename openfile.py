@@ -1,0 +1,7 @@
+f=open("sample.txt",'w')
+print("file type is : ",type(f))
+print("filename : ",f.name)
+print("filemode : ",f.mode)
+print("file is closed ",f.closed)
+f.close()
+print("file is closed ",f.closed)
